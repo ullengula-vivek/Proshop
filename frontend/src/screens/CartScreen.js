@@ -27,7 +27,7 @@ import { addToCart,removefromCart } from '../actions/cartActions'
             dispatch(removefromCart(id))
         }
         const checkoutHandler = () => {
-            navigate('/login?redirect=shipping')
+            navigate('/login?redirect=/shipping')
         }
 
   return (
